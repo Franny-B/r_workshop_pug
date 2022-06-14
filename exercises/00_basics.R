@@ -35,10 +35,10 @@ This creates an error when you try to run it.
 
 # So, commenting out a line prevents it from being run. If you want to comment
 # out larger chunks of text (or code), highlight everything  you want to comment
-# out, and hit ctrl + shift + c. The same shortcut uncomments multiple lines at 
+# out, and hit ctrl + shift + c. The same shortcut uncomments multiple lines at
 # once.
-# Usually, there won't be as many comments in a script as in this one, but 
-# during this workshop, I will use comments a lot to explain things. If you want 
+# Usually, there won't be as many comments in a script as in this one, but
+# during this workshop, I will use comments a lot to explain things. If you want
 # to make some notes during the course, you should use comments, too!
 
 ## 2 DATA TYPES ----------------------------------------------------------------
@@ -88,7 +88,7 @@ typeof(3.2)
 # 3.1) Run 12 == 12. What does it do? What happens if you try 12 = 12 instead?
 
 # 3.2) What is "cat" != "dog"?
-
+"cat" != "dog"
 # 3.3) Try out: FALSE & FALSE, then FALSE & TRUE and finally, TRUE & TRUE. 
 #      What happens?
 
