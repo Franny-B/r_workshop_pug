@@ -82,7 +82,23 @@ my_vector # print vector
 
 1.1) Create some vectors. Create one vector with characters, one with numbers, and one with logicals. Save them all into different variables.
 
+```{r}
+v_num <- c(1,2,3,4)
+v_char <- c("eins", 'zwei', 'drei', 'vier')
+v_logi <- c(TRUE,TRUE,FALSE,FALSE)
+
+```
+
+
 1.2) We saw that the `c()` function combines elements into a vector, but it can also combine vectors! Try to combine some of the vectors you previously created using the `c()` function.
+
+ 
+```{r}
+V_numChar <- c(v_num, v_char)
+v_charLogi <- c(v_char, v_logi)
+v_numLogi <- c(v_num, v_logi)
+v_numcharlogi <- c(v_num, v_char, v_logi)
+```
 
 ### Optional
 
