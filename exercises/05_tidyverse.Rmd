@@ -98,6 +98,12 @@ Turn these layered base `R` function calls into a `tidyverse` chain.
 ```{r}
 example_vector <- c(3, -2, 5, 99, -132.5)
 as.character(mean(abs(example_vector)))
+abs(example_vector)
+
+example_vector %>% 
+  abs() %>% 
+  mean()
+
 ```
 
 1.2) Let's make things a bit trickier with additional arguments.
@@ -105,6 +111,13 @@ as.character(mean(abs(example_vector)))
 ```{r}
 example_vector <- c(3, -2, 5, NA, 99, -132.5, NA)
 as.character(mean(head(abs(example_vector), 4), na.rm = TRUE))
+
+
+example_vector %>% 
+  abs() %>% 
+  head() %>% 
+  mean(na.rm = TRUE) %>% 
+  as.character()
 ```
 
 ### Optional
